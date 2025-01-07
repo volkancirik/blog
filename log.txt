@@ -1,0 +1,225 @@
+Deprecation Warning: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import "../_sass/settings";
+  │         ^^^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/vcirik/git/misc/personal/blog_dev/css/print.scss 1:9  root stylesheet
+Deprecation Warning: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "../_sass/fonts";
+   │         ^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 11:9  root stylesheet
+Deprecation Warning: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "../_sass/settings";
+   │         ^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 12:9  root stylesheet
+Deprecation Warning: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+13 │ @import "../_sass/syntax-highlighting";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 13:9  root stylesheet
+Deprecation Warning: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+14 │ @import "../_sass/variables";
+   │         ^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 14:9  root stylesheet
+Deprecation Warning: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+15 │ @import "../_sass/share";
+   │         ^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 15:9  root stylesheet
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($spacing-unit, 2) or calc($spacing-unit / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+6 │     margin-bottom: $spacing-unit / 2;
+  │                    ^^^^^^^^^^^^^^^^^
+  ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_syntax-highlighting.scss 6:20  @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 13:9                   root stylesheet
+Deprecation Warning: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+52 │ $dark-gray: mix(#000, $gray, 40%) !default;
+   │             ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_variables.scss 52:13  @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 14:9          root stylesheet
+Deprecation Warning: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+53 │ $darker-gray: mix(#000, $gray, 60%) !default;
+   │               ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_variables.scss 53:15  @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 14:9          root stylesheet
+Deprecation Warning: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+54 │ $light-gray: mix(#fff, $gray, 50%) !default;
+   │              ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_variables.scss 54:14  @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 14:9          root stylesheet
+Deprecation Warning: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+55 │ $lighter-gray: mix(#fff, $gray, 90%) !default;
+   │                ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_variables.scss 55:16  @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 14:9          root stylesheet
+Deprecation Warning: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+61 │ $muted-text-color: mix(#fff, $text-color, 35%) !default;
+   │                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_variables.scss 61:20  @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 14:9          root stylesheet
+Deprecation Warning: Using / for division is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(9, 16)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+31 │ $mfp-iframe-ratio:                    9/16;                       // Ratio of iframe (9/16 = widescreen, 3/4 = standard, etc.)
+   │                                       ^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/vendor/magnific-popup/_settings.scss 31:39  @import
+    vendor/magnific-popup/_magnific-popup.scss 3:9                                             @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 18:9                               root stylesheet
+Deprecation Warning: red() is deprecated. Suggestion:
+
+color.channel($color, "red", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+64 │   $red: red($color);
+   │         ^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 64:9       yiq-is-light()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 81:14      yiq-contrast-color()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 91:10      yiq-contrasted()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_navigation.scss 136:7  @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 23:9           root stylesheet
+Deprecation Warning: green() is deprecated. Suggestion:
+
+color.channel($color, "green", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+65 │   $green: green($color);
+   │           ^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 65:11      yiq-is-light()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 81:14      yiq-contrast-color()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 91:10      yiq-contrasted()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_navigation.scss 136:7  @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 23:9           root stylesheet
+Deprecation Warning: blue() is deprecated. Suggestion:
+
+color.channel($color, "blue", $space: rgb)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+66 │   $blue: blue($color);
+   │          ^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 66:10      yiq-is-light()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 81:14      yiq-contrast-color()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 91:10      yiq-contrasted()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_navigation.scss 136:7  @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 23:9           root stylesheet
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(($red * 299) + ($green * 587) + ($blue * 114), 1000) or calc((($red * 299) + ($green * 587) + ($blue * 114)) / 1000)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+68 │   $yiq: (($red*299)+($green*587)+($blue*114))/1000;
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 68:9       yiq-is-light()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 81:14      yiq-contrast-color()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_mixins.scss 91:10      yiq-contrasted()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_navigation.scss 136:7  @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 23:9           root stylesheet
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($span-width, $container) or calc($span-width / $container)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+93 │     @return percentage($span-width / $container);
+   │                        ^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/vendor/susy/susy/_su-math.scss 93:24          su-span()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/vendor/susy/susy/_syntax-helpers.scss 190:11  su-call()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/vendor/susy/susy/_api.scss 146:13             susy-span()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/vendor/susy/susy/_unprefix.scss 19:11         span()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_utilities.scss 181:24                        @content
+    vendor/breakpoint/_breakpoint.scss 66:7                                                      breakpoint()
+    /Users/vcirik/git/misc/personal/blog_dev/_sass/_utilities.scss 180:3                         @import
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 25:9                                 root stylesheet
+Deprecation Warning: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 31.25%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+226 │ .booktabs th.cmid, th { border-bottom: 1px solid lighten($border-color, 25%); }
+    │                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ╵
+    /Users/vcirik/git/misc/personal/blog_dev/css/tufte.scss 226:50  root stylesheet
+Warning: 178 repetitive deprecation warnings omitted.

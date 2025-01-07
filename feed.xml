@@ -5,12 +5,12 @@
     <description>Stuff I think about</description>
     <link>https://volkancirik.github.io/blog/</link>
     <atom:link href="https://volkancirik.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Jan 2025 16:42:38 -0500</pubDate>
-    <lastBuildDate>Tue, 07 Jan 2025 16:42:38 -0500</lastBuildDate>
+    <pubDate>Tue, 07 Jan 2025 17:05:03 -0500</pubDate>
+    <lastBuildDate>Tue, 07 Jan 2025 17:05:03 -0500</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
       <item>
-        <title>Tufte-style Jekyll blog</title>
+        <title>Tufte-style Jekyll blog [sample post]</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;The Tufte Jekyll theme&lt;/span&gt;  is an attempt to create a website design with the look and feel of Edward Tufte’s books and handouts. Tufte’s style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography.&lt;!--more--&gt; The idea for this project is essentially cribbed wholesale from Tufte and R Markdown’s Tufte Handout format&lt;label for=&quot;One&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;One&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;See &lt;a href=&quot;https://tufte-latex.github.io/tufte-latex/&quot;&gt;tufte-latex.github.io/tufte-latex/&lt;/a&gt; and &lt;a href=&quot;http://rmarkdown.rstudio.com/tufte_handout_format.html&quot;&gt;rmarkdown.rstudio.com/tufte_handout_format&lt;/a&gt; &lt;/span&gt; This page is an adaptation of the &lt;a href=&quot;http://rmarkdown.rstudio.com/examples/tufte-handout.pdf&quot;&gt;Tufte Handout PDF&lt;/a&gt;.&lt;/p&gt;
@@ -422,7 +422,7 @@ etc..
    ```&lt;/code&gt; &lt;/pre&gt;
 
 </description>
-        <pubDate>Thu, 19 Feb 2015 16:46:04 -0500</pubDate>
+        <pubDate>Thu, 19 Feb 2015 00:00:00 -0500</pubDate>
         <link>https://volkancirik.github.io/blog/articles/tufte-style-jekyll-blog</link>
         <guid isPermaLink="true">https://volkancirik.github.io/blog/articles/tufte-style-jekyll-blog</guid>
         
