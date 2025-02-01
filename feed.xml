@@ -5,9 +5,61 @@
     <description>Stuff I think about</description>
     <link>https://volkancirik.github.io/blog/</link>
     <atom:link href="https://volkancirik.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Jan 2025 09:04:50 -0500</pubDate>
-    <lastBuildDate>Wed, 08 Jan 2025 09:04:50 -0500</lastBuildDate>
+    <pubDate>Sat, 01 Feb 2025 10:53:33 -0500</pubDate>
+    <lastBuildDate>Sat, 01 Feb 2025 10:53:33 -0500</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>Mindstorms - Book Review</title>
+        <description>&lt;h2 id=&quot;tldr&quot;&gt;tl;dr&lt;/h2&gt;
+
+&lt;p&gt;&lt;span class=&quot;newthought&quot;&gt;I finally finished&lt;/span&gt;  every Alan-Kay-wannabe’s favorite book “Mindstorms”. It is surprisingly prescient in predicting where the computer revolution was moving towards. We have mass adoption of computers on every aspect of our lives. Unfortunately, we are still stuck with the old paradigm of using computers in teaching. With the recent breakthroughs and mass adoption of AI, some of his predictions on personalized and constructionist education tools will (hopefully) soon be realized as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;constructionism&quot;&gt;Constructionism&lt;/h2&gt;
+
+&lt;p&gt;The fundamental idea the whole book is built on is “constructionism” i.e., learning happens most effectively when the learner is actively engaged in creating meaningful things. Papert believes that in schools curricula the computer programs the kid – but it should be the other way around. We can design environments where the learner &lt;em&gt;assimilates&lt;/em&gt; the teachings while actively building things and solving problems they care about similar to learning a new language is much easier when living abroad and trying to survive.&lt;/p&gt;
+
+&lt;p&gt;As an example, Papert talks about the &lt;a href=&quot;https://en.wikipedia.org/wiki/Turtle_graphics&quot;&gt;Turtle&lt;/a&gt;&lt;label for=&quot;one&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;one&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;This was a pleasant surprise since I solved several turtle problems for the first stage of national olympics in informatics. &lt;/span&gt;. Here children program a turtle to draw shapes on a computer. This setup indirectly teaches children several fundamental concepts. They learn how to &lt;em&gt;debug&lt;/em&gt; problems, write their own &lt;em&gt;procedures&lt;/em&gt;, and introduce variables, conditionals. Even though it is a simple constructed world, one can even teach fundamental concepts of Newtonian pyhsics and calculus using the Turtle world.&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-about-physical-world&quot;&gt;Learning About Physical World&lt;/h2&gt;
+
+&lt;p&gt;Papert raises an interesting question in chapter 4: &lt;em&gt;“Can we distill knowledge about physical world or an action in language form?”&lt;/em&gt; His answer is a Yann-Lecun-triggering yes! He talks about how procedural thinking of computer science are exactly what’s needed to get a handle on the process of learning something physical. He goes on an talks about in 4 simple steps how one can learn juggling 3 balls in the air. Again, he was very prescient here because, the recent work shows that LLMs world knowledge is useful for robots to learn &lt;label for=&quot;two&quot; class=&quot;margin-toggle sidenote-number&quot;&gt;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;two&quot; class=&quot;margin-toggle&quot; /&gt;&lt;span class=&quot;sidenote&quot;&gt;1. https://neurips.cc/virtual/2023/poster/71394 2. https://arxiv.org/abs/2411.14499v1  &lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quotes&quot;&gt;Quotes&lt;/h2&gt;
+
+&lt;p&gt;&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;We have already noted that the conservative bias being built into the use of computers in education has also been built into other new technologies. The first use of the new technology is quite naturally to do in a slightly different way what had been done before without it. It took years before designers of automobiles accepted the idea that they were cars, not &quot;horseless carriages,&quot; and the precursors of modern motion pictures were plays acted as if before a live audience but actually in front of a camera. A whole generation was needed for the new art of motion pictures to emerge as something quite different from a linear mix of theater plus photography. Most of what has been done up to now under the name of &quot;educational technology&quot; or &quot;computers in education&quot; is still at the stage of the linear mix of old instructional methods with new technologies. The topics I shall be discussing are some of the first probings toward a more organic interaction of fundamental educational principles and new methods for translating them into reality&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;In traditional schoolrooms, teachers do try to work collaboratively with children, but usually the material itself does not spontaneously generate research problems. Can an adult and a child genuinely collaborate on elementary school arithmetic? A very important feature of work with computers is that the teacher and the learner can be engaged in a real intellectual collaboration; together they can try to get the computer to do this or that and understand what it actually does. New situations that neither teacher nor learner has seen before come up frequently and so the teacher does not have to pretend not to know. Sharing the problem and the experience of solving it allows a child to learn from an adult not &quot;by doing what teacher says&quot; but &quot;by doing what teacher does.&quot; And one of the things that the teacher does is pursue a problem until it is completely understood.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;..this makes Piaget-in-the-schools a Piaget backward - backward because children are being force-fed &quot;correct&quot; theories before they are ready to invent them. And backward because Piaget&apos;s work puts into question the idea that the &quot;correct&quot; theory is superior as a learning strategy. Some readers may have difficulty seeing the child&apos;s nonconservationist view of the world as a kind of theory building. Let&apos;s take another example. Piaget asked preschool children, &quot;What makes the wind?&quot; Very few said, &quot;I don&apos;t know.&quot; Most children gave their own personal theories, such as, &quot;The trees made the wind by waving their branches.&quot; This theory, although wrong, gives good evidence for highly developed skill in theory building. It can be tested against empirical fact. Indeed there is a strong correlation between the presence of wind and the waving of tree branches. And children can perform an experiment that makes their causal connection quite plausible. When they wave their hands near their faces, they make a very noticeable breeze. Children can imagine this effect multiplied when the waving object is not a small hand but a giant tree, and when not one but many giant trees are waving. So, the trees of a dense forest should be a truly powerful wind generator. What do we say to a child who has made such a beautiful the-ory? &quot;That&apos;s great thinking, Johnny, but the theory is wrong&quot; constitutes a put-down that will convince most children that making one&apos;s own theories is futile. So, rather than stifling the children&apos;s creativity, the solution is to create an intellectual environment less dominated than the school&apos;s by the criteria of true and false.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;More often than we realize, we solve problems by &quot;almost knowing the answer&quot; already. Some researchers try to make programs be intelligent by giving them such quantities of knowledge that the greater part of solving a problem becomes its retrieval from somewhere in the memory.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I have said that this theory is inspired by a computational metaphor. One might ask how. The &quot;theory&quot; might appear to be nothing but anthropomorphic talk. But we have already seen that anthropomorphic descriptions are often a step toward computational theories. And the thrust of the society-of-mind theory is that agents can be translated into precise computational models. As long as we only think about these agents as &quot;people,&quot; the theory is circular. It explains the behavior of people in terms of the behavior of people. But, if we can think of the agents as well-defined computational entities similar to the subprocedures VEE, LINE, and HEAD in the procedure MAN, everything becomes clearer. We saw even in small programs how very simple modules can be put together to produce complex results.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Poincaré postulates a mechanism for the incubation. The phenomenological view of abandonment is totally false. On the contrary, the problem has been turned over to a very active unconscious which relentlessly begins to combine the elements supplied to it by the first, conscious state of the work. The unconscious mind is not assumed to have any remarkable powers except concentration, systematic operation, and imperviousness to boredom, distractions, or changes of goal. The product of the unconscious work is delivered back to the conscious mind at a moment which has no relation to what the latter is doing. This time the phenomenological view is even more misleading since the finished piece of work might appear in consciousness at the most surprising times, in apparent relation to quite fortuitous events.&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;questions&quot;&gt;Questions&lt;/h2&gt;
+
+&lt;p&gt;Below I list some of the questions popped in my head while reading the book:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How early can we introduce an AI companion to the child so that they can learn by interacting with physical or mixed reality?&lt;/li&gt;
+  &lt;li&gt;What kind of objects-to-think-with should kids create if they have access to something similar to Anthropic’s artifacts?&lt;/li&gt;
+  &lt;li&gt;What would be the modern version of Turtle on a VR or AR headset?&lt;/li&gt;
+  &lt;li&gt;Can we design a new drawing and reading companion with AI that makes it fun and easy to learn fundamental concepts in math, physics, and computer science?&lt;/li&gt;
+  &lt;li&gt;How can we create a tool to create “Mathland”s? Let’s say I want to learn about cellular biology, can we create such a “Mathland” to learn by building and interacting with Mini Cell World?&lt;/li&gt;
+  &lt;li&gt;Is it possible to modularize LLMs i.e., duct-taping them or their subcomponents to each other?&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 01 Feb 2024 00:00:00 -0500</pubDate>
+        <link>https://volkancirik.github.io/blog/articles/mindstorms</link>
+        <guid isPermaLink="true">https://volkancirik.github.io/blog/articles/mindstorms</guid>
+        
+        
+        <category>book</category>
+        
+      </item>
     
       <item>
         <title>Tufte-style Jekyll blog [sample post]</title>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Mindstorms - Book Review</title>
+  <meta name="description" content="Blog by Volkan Cirik."/>
+  <meta name="keywords" content="
+	volkan cirik,
+	artificial intelligence, machine learning, large language models, natural language processing
+	"/>
+  <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
+  
+    <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- Load up MathJax script if needed ... specify in /_data/options.yml file-->
+  
+    <script type="text/javascript" async
+	    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+  <!-- <link rel="stylesheet" type="text/css" href="https://volkancirik.github.io/blog/css/print.css" media="print"> -->
+
+  <link rel="canonical" href="https://volkancirik.github.io/blog/articles/mindstorms">
+
+  <link rel="alternate" type="application/rss+xml" title="Volkan Cirik's Blog" href="https://volkancirik.github.io/blog/feed.xml" /><script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', '', 'auto');
+ga('send', 'pageview');
+</script>
+<link rel="shortcut icon" type="image/png" href="https://volkancirik.github.io/blog/assets/img/blog.jpg">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
+  <link rel="stylesheet" type="text/css" href="https://volkancirik.github.io/blog/css/tufte.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+  <script>
+    $(document).ready(function(){
+    $('.nav__title').click(function (e) {
+    e.stopPropagation();
+    $('.toc__menu').toggle("slide",{'direction' : 'up'}, 300 );
+    $('.share_bar').toggle("slide",{'direction' : 'left'}, 300 );
+    var el  = $('.hide_toc');
+    if(el.text() == ' hide ')
+    {
+    $('.hide_toc').removeClass( "fa-caret-left");
+    $('.hide_toc').addClass( "fa-caret-right");
+    $('.sidebar__right').css("opacity", "0.40");
+    }
+    else{
+    $('.hide_toc').removeClass( "fa-caret-right");
+    $('.hide_toc').addClass( "fa-caret-left");
+    $('.sidebar__right').css("opacity", "1.0");
+    }
+    el.text(el.text() == ' hide ' ? ' show ' : ' hide ');
+    });
+
+    //$( ".nav__title" ).trigger( "click" );
+});
+  </script>
+</head>
+
+  <!--- Header and nav template site-wide -->
+<header>
+    <nav class="group">
+	<a href="https://volkancirik.com/"><img class="badge" src="https://volkancirik.github.io/blog/assets/img/blog.jpg" alt="AC"></a>
+	
+		
+  	
+		
+	            <a href="https://volkancirik.github.io/blog/">Blog</a>
+	    
+  	
+		
+  	
+		
+	            <a href="https://volkancirik.github.io/blog/css/print.css"></a>
+	    
+  	
+		
+  	
+	</nav>
+</header>
+
+  <article>
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header>
+		<h3 class="nav__title">Table of Contents
+		  <i class="fas fa-caret-left fa-sm hide_toc" style="float: right"> hide </i>
+		</h3>
+	      </header>
+              
+<ul class="toc__menu">
+  <li><a href="#">Mindstorms - Book Review</a>
+    <ul>
+      <li><a href="#tldr">tl;dr</a></li>
+      <li><a href="#constructionism">Constructionism</a></li>
+      <li><a href="#learning-about-physical-world">Learning About Physical World</a></li>
+      <li><a href="#quotes">Quotes</a></li>
+      <li><a href="#questions">Questions</a></li>
+    </ul>
+  </li>
+</ul>
+<div class="share_bar">
+    <div class="share_title">Share This Post</div>
+    <div class="share_buttons">
+        <a  href="https://twitter.com/intent/tweet?text=Mindstorms - Book Review&url=https://volkancirik.github.io/blog/articles/mindstorms"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter" >
+            <i class="fa fa-twitter share-button fa-lg"></i>
+        </a>
+
+        <a  href="http://www.reddit.com/submit?url=https://volkancirik.github.io/blog/articles/mindstorms"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Reddit" >
+            <i class="fa fa-reddit-alien share-button fa-lg"></i>
+        </a>
+
+        <a  href="https://www.linkedin.com/shareArticle?mini=true&url=https://volkancirik.github.io/blog/articles/mindstorms&title=Mindstorms - Book Review&summary=&source=Volkan Cirik's Blog"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on LinkedIn" >
+            <i class="fa fa-linkedin share-button fa-lg"></i>
+        </a>
+
+        <a  href="https://news.ycombinator.com/submitlink?u=https://volkancirik.github.io/blog/articles/mindstorms&t=Mindstorms - Book Review"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Hacker News" >
+            <i class="fa fa-hacker-news share-button fa-lg"></i>
+        </a>
+    </div>
+</div>
+
+
+            </nav>
+          </aside>
+        
+	  <h1>Mindstorms - Book Review</h1>
+<p class="subtitle">February 1, 2024</p>
+
+<h2 id="tldr">tl;dr</h2>
+
+<p><span class="newthought">I finally finished</span>  every Alan-Kay-wannabe’s favorite book “Mindstorms”. It is surprisingly prescient in predicting where the computer revolution was moving towards. We have mass adoption of computers on every aspect of our lives. Unfortunately, we are still stuck with the old paradigm of using computers in teaching. With the recent breakthroughs and mass adoption of AI, some of his predictions on personalized and constructionist education tools will (hopefully) soon be realized as well.</p>
+
+<h2 id="constructionism">Constructionism</h2>
+
+<p>The fundamental idea the whole book is built on is “constructionism” i.e., learning happens most effectively when the learner is actively engaged in creating meaningful things. Papert believes that in schools curricula the computer programs the kid – but it should be the other way around. We can design environments where the learner <em>assimilates</em> the teachings while actively building things and solving problems they care about similar to learning a new language is much easier when living abroad and trying to survive.</p>
+
+<p>As an example, Papert talks about the <a href="https://en.wikipedia.org/wiki/Turtle_graphics">Turtle</a><label for="one" class="margin-toggle sidenote-number"></label><input type="checkbox" id="one" class="margin-toggle" /><span class="sidenote">This was a pleasant surprise since I solved several turtle problems for the first stage of national olympics in informatics. </span>. Here children program a turtle to draw shapes on a computer. This setup indirectly teaches children several fundamental concepts. They learn how to <em>debug</em> problems, write their own <em>procedures</em>, and introduce variables, conditionals. Even though it is a simple constructed world, one can even teach fundamental concepts of Newtonian pyhsics and calculus using the Turtle world.</p>
+
+<h2 id="learning-about-physical-world">Learning About Physical World</h2>
+
+<p>Papert raises an interesting question in chapter 4: <em>“Can we distill knowledge about physical world or an action in language form?”</em> His answer is a Yann-Lecun-triggering yes! He talks about how procedural thinking of computer science are exactly what’s needed to get a handle on the process of learning something physical. He goes on an talks about in 4 simple steps how one can learn juggling 3 balls in the air. Again, he was very prescient here because, the recent work shows that LLMs world knowledge is useful for robots to learn <label for="two" class="margin-toggle sidenote-number"></label><input type="checkbox" id="two" class="margin-toggle" /><span class="sidenote">1. https://neurips.cc/virtual/2023/poster/71394 2. https://arxiv.org/abs/2411.14499v1  </span></p>
+
+<h2 id="quotes">Quotes</h2>
+
+<p>&gt; <code class="language-plaintext highlighter-rouge">We have already noted that the conservative bias being built into the use of computers in education has also been built into other new technologies. The first use of the new technology is quite naturally to do in a slightly different way what had been done before without it. It took years before designers of automobiles accepted the idea that they were cars, not "horseless carriages," and the precursors of modern motion pictures were plays acted as if before a live audience but actually in front of a camera. A whole generation was needed for the new art of motion pictures to emerge as something quite different from a linear mix of theater plus photography. Most of what has been done up to now under the name of "educational technology" or "computers in education" is still at the stage of the linear mix of old instructional methods with new technologies. The topics I shall be discussing are some of the first probings toward a more organic interaction of fundamental educational principles and new methods for translating them into reality</code></p>
+
+<p>&gt; <code class="language-plaintext highlighter-rouge">"In traditional schoolrooms, teachers do try to work collaboratively with children, but usually the material itself does not spontaneously generate research problems. Can an adult and a child genuinely collaborate on elementary school arithmetic? A very important feature of work with computers is that the teacher and the learner can be engaged in a real intellectual collaboration; together they can try to get the computer to do this or that and understand what it actually does. New situations that neither teacher nor learner has seen before come up frequently and so the teacher does not have to pretend not to know. Sharing the problem and the experience of solving it allows a child to learn from an adult not "by doing what teacher says" but "by doing what teacher does." And one of the things that the teacher does is pursue a problem until it is completely understood.</code></p>
+
+<p>&gt; <code class="language-plaintext highlighter-rouge">..this makes Piaget-in-the-schools a Piaget backward - backward because children are being force-fed "correct" theories before they are ready to invent them. And backward because Piaget's work puts into question the idea that the "correct" theory is superior as a learning strategy. Some readers may have difficulty seeing the child's nonconservationist view of the world as a kind of theory building. Let's take another example. Piaget asked preschool children, "What makes the wind?" Very few said, "I don't know." Most children gave their own personal theories, such as, "The trees made the wind by waving their branches." This theory, although wrong, gives good evidence for highly developed skill in theory building. It can be tested against empirical fact. Indeed there is a strong correlation between the presence of wind and the waving of tree branches. And children can perform an experiment that makes their causal connection quite plausible. When they wave their hands near their faces, they make a very noticeable breeze. Children can imagine this effect multiplied when the waving object is not a small hand but a giant tree, and when not one but many giant trees are waving. So, the trees of a dense forest should be a truly powerful wind generator. What do we say to a child who has made such a beautiful the-ory? "That's great thinking, Johnny, but the theory is wrong" constitutes a put-down that will convince most children that making one's own theories is futile. So, rather than stifling the children's creativity, the solution is to create an intellectual environment less dominated than the school's by the criteria of true and false.</code></p>
+
+<p>&gt; <code class="language-plaintext highlighter-rouge">More often than we realize, we solve problems by "almost knowing the answer" already. Some researchers try to make programs be intelligent by giving them such quantities of knowledge that the greater part of solving a problem becomes its retrieval from somewhere in the memory.</code></p>
+
+<p>&gt; <code class="language-plaintext highlighter-rouge">I have said that this theory is inspired by a computational metaphor. One might ask how. The "theory" might appear to be nothing but anthropomorphic talk. But we have already seen that anthropomorphic descriptions are often a step toward computational theories. And the thrust of the society-of-mind theory is that agents can be translated into precise computational models. As long as we only think about these agents as "people," the theory is circular. It explains the behavior of people in terms of the behavior of people. But, if we can think of the agents as well-defined computational entities similar to the subprocedures VEE, LINE, and HEAD in the procedure MAN, everything becomes clearer. We saw even in small programs how very simple modules can be put together to produce complex results.</code></p>
+
+<p>&gt; <code class="language-plaintext highlighter-rouge">Poincaré postulates a mechanism for the incubation. The phenomenological view of abandonment is totally false. On the contrary, the problem has been turned over to a very active unconscious which relentlessly begins to combine the elements supplied to it by the first, conscious state of the work. The unconscious mind is not assumed to have any remarkable powers except concentration, systematic operation, and imperviousness to boredom, distractions, or changes of goal. The product of the unconscious work is delivered back to the conscious mind at a moment which has no relation to what the latter is doing. This time the phenomenological view is even more misleading since the finished piece of work might appear in consciousness at the most surprising times, in apparent relation to quite fortuitous events.</code></p>
+
+<h2 id="questions">Questions</h2>
+
+<p>Below I list some of the questions popped in my head while reading the book:</p>
+
+<ol>
+  <li>How early can we introduce an AI companion to the child so that they can learn by interacting with physical or mixed reality?</li>
+  <li>What kind of objects-to-think-with should kids create if they have access to something similar to Anthropic’s artifacts?</li>
+  <li>What would be the modern version of Turtle on a VR or AR headset?</li>
+  <li>Can we design a new drawing and reading companion with AI that makes it fun and easy to learn fundamental concepts in math, physics, and computer science?</li>
+  <li>How can we create a tool to create “Mathland”s? Let’s say I want to learn about cellular biology, can we create such a “Mathland” to learn by building and interacting with Mini Cell World?</li>
+  <li>Is it possible to modularize LLMs i.e., duct-taping them or their subcomponents to each other?</li>
+</ol>
+
+
+
+  </article>
+  <span class="print-footer">Mindstorms - Book Review - February 1, 2024 - volkan cirik</span>
+  <footer>
+  <!-- <hr class="slender"> -->
+  
+  <a href="//www.twitter.com/volkancirik"><span class="icon-twitter"></span></a>
+  
+  <a href="//github.com/volkancirik"><span class="icon-github"></span></a>
+  
+  <span>&copy; 2025&nbsp;<a href="https://volkancirik.com">volkan cirik</a> [a <a href="//github.com/clayh53/tufte-jekyll">tufte</a>-style <a href="//jekyllrb.com">jekyll website</a>]
+  </span>
+</footer>
+
+</html>
